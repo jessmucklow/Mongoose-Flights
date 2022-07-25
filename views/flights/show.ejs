@@ -1,0 +1,25 @@
+<%- include('../partials/header') %>
+
+<section id="show-page">
+  <div>flight Info: </div>
+  <div><%= flight.title %></div>
+  <div> Airline: </div>
+  <div><%= flight.airline %></div>
+  <div>Departure Airport: </div>
+  <div><%= flight.airport %></div>
+  <div>Destination: </div>
+  <div><%= flight.destination %></div>
+  <div>Flight Number: </div>
+  <div><%= flight.flightNo %></div>
+  <div>Tickets Available? </div>
+  <div><%= flight.ticketAvailable ? 'Yes' : 'Nope' %></div>
+  <!-- <ul> -->
+    <!-- <%- movie.cast.map(p => 
+      `<li>${p.name} <small>${p.born.toLocaleDateString()}</small></li>`
+    ).join('') %> -->
+  <!-- </ul> -->
+</section>
+
+</form>
+  
+<%- include('../partials/footer') %>
